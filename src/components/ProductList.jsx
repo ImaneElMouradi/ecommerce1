@@ -7,9 +7,6 @@ import { ProductConsumer } from "../context";
 
 //working with context api
 class ProductList extends PureComponent {
-  state = {
-    products: []
-  };
   render() {
     return (
       <>
