@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 
 import Product from "./Product";
 import Title from "./Title";
@@ -6,7 +6,7 @@ import Title from "./Title";
 import { ProductConsumer } from "../context";
 
 //working with context api
-class ProductList extends PureComponent {
+class ProductList extends Component {
   render() {
     return (
       <>

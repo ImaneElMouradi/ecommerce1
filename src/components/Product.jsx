@@ -1,11 +1,11 @@
-import React, { PureComponent } from "react";
+import React, { Component } from "react";
 
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../context";
 import PropTypes from "prop-types";
 
-class Product extends PureComponent {
+class Product extends Component {
   state = {};
   render() {
     const { id, title, img, price, inCart } = this.props.product;
@@ -31,7 +31,7 @@ class Product extends PureComponent {
                 >
                   {inCart ? (
                     <p className="text-capitalize mb-0" disabled>
-                      in Cart
+                      in cart
                     </p>
                   ) : (
                     <i className="fa fa-cart-plus" />
