@@ -16,12 +16,11 @@ class App extends Component {
       <>
         <NavBar />
         <Switch>
-          <Route path="/" component={ProductList} />
+          <Route path="/" component={ProductList} exact />
+          <Route path="/details" component={Details} />
+          <Route path="/cart" component={Cart} />
+          <Route component={Default} />
         </Switch>
-        <ProductList />
-        <Details />
-        <Cart />
-        <Default />
       </>
     );
   }
