@@ -35,7 +35,7 @@ class Modal extends Component {
                           className="mb-2"
                           onClick={() => closeModal()}
                         >
-                          continue shopping
+                          store
                         </ButtonContainer>
                       </Link>
                       <Link to="/cart">
