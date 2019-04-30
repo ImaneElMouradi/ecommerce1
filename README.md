@@ -1,6 +1,7 @@
 A project made following this [tutorial](https://www.youtube.com/watch?v=wPQ1-33teR4&t=19565s)
 
 ### What I learned
+
 <hr>
 
 -How to use routing ( because we worked on a single page website )
@@ -8,7 +9,7 @@ A project made following this [tutorial](https://www.youtube.com/watch?v=wPQ1-33
 <br>
 `react-router-dom`
 
--How to use context to manipulate states easily ( we won't have to pass props in many levels ) 
+-How to use context to manipulate states easily ( we won't have to pass props in many levels )
 <br>
 <br>
 `const Context = React.createContext();`
@@ -16,17 +17,20 @@ A project made following this [tutorial](https://www.youtube.com/watch?v=wPQ1-33
 then we use :
 <br>
 <br>
-`<Context.Provider value={{}} > {this.props.children} </Context.Provider>` 
+`<Context.Provider value={{}} > {this.props.children} </Context.Provider>`
 <br>
 to set the value we will pass to consumers / value can receive a string or even an object... ( usually the state and the functions )
 
--How to create styled components 
+-How to create styled components
 <br>
 <br>
 `import styled from "styled-components";`
 <br>
-`const styledExample = styled.(html tag)``;`
+` const styledExample = styled.(html tag)``; `
 and we can easily put css inside.
 
+-As for the paypal button:
+<br>
+`react-paypal-express-checkout`
 
-
+-In order to start working with Paypal, you'll have to work with [this](https://developer.paypal.com/)
