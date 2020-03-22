@@ -1,4 +1,3 @@
-A project made following this [tutorial](https://www.youtube.com/watch?v=wPQ1-33teR4&t=19565s)
 
 ### What I learned
 <hr>
@@ -29,4 +28,5 @@ to set the value we will pass to consumers / value can receive a string or even 
 and we can easily put css inside.
 
 
-
+### Deploy
+https://ecommerce-phone-shop.netlify.com
